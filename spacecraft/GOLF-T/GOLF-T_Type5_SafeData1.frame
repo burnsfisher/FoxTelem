@@ -1,12 +1,11 @@
 number_of_payloads=5
 payload0.name=rttelemetry
-payload0.length=100
+payload0.length=124
 payload1.name=mintelemetry
-payload1.length=68
+payload1.length=100
 payload2.name=maxtelemetry
-payload2.length=64
+payload2.length=92
 payload3.name=wodtelemetry
-payload3.length=104
+payload3.length=128
 payload4.name=wodtelemetry
-payload4.length=104
-
+payload4.length=128

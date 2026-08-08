@@ -1,12 +1,12 @@
 number_of_payloads=7
 payload0.name=wodtelemetry
-payload0.length=93
+payload0.length=92
 payload1.name=wodtelemetry
-payload1.length=93
+payload1.length=92
 payload2.name=wodtelemetry
-payload2.length=93
+payload2.length=92
 payload3.name=wodtelemetry
-payload3.length=93
+payload3.length=92
 payload4.name=wodscitelemetry
 payload4.length=92
 payload5.name=wodscitelemetry

@@ -1,4 +1,3 @@
 number_of_payloads=1
 payload0.name=scilongtelemetry
-payload0.length=658
-
+payload0.length=657
