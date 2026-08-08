@@ -121,18 +121,18 @@
 119,wod,RTIHU1Resets,8,-,1,RT-IHU,11,6,0,Proc1 Reset Cnt,Processor 1 reset count
 120,wod,RTIHU2Resets,8,-,1,RT-IHU,11,7,0,Proc2 Reset Cnt,Processor 2 reset count
 121,wod,com2Spare1Bit,1,-,0,NONE,0,0,0,com2 Spare Bit,Spare
-122,wod,dctTransmitting2,1,-,status_on_off,DCT2,13,9,0,Transmitting,DCT2 is transmitting (only the in-control processor's DCT transmits)
-123,wod,dctTransmitting1,1,-,status_on_off,DCT1,12,10,0,Transmitting,DCT1 is transmitting (only the in-control processor's DCT transmits)
+122,wod,com2Spare3Bit,1,-,0,NONE,0,0,0,com2 Spare Bit,Spare
+123,wod,com2Spare2Bit,1,-,0,NONE,0,0,0,com2 Spare Bit,Spare
 124,wod,dctPowerNormal2,1,-,status_hi_low,DCT2,13,6,0,Pwr Setting (Health),DCT2 transmit power in health/science mode (1=high)
 125,wod,dctPowerSafe2,1,-,status_hi_low,DCT2,13,5,0,Pwr Setting (Safe),DCT2 transmit power in safe mode (1=high)
 126,wod,dctPowerNormal1,1,-,status_hi_low,DCT1,12,6,0,Pwr Setting (Health),DCT1 transmit power in health/science mode (1=high)
 127,wod,dctPowerSafe1,1,-,status_hi_low,DCT1,12,5,0,Pwr Setting (Safe),DCT1 transmit power in safe mode (1=high)
 128,wod,rfPowerCap,1,-,44,Legacy Radio,1,11,0,Transponder Power Cap,Transponder RF power capped (1=capped - low power)
 129,wod,vucDisabled,1,-,21,Spacecraft Status,3,9,0,VUC Disabled,VUC Disabled
-130,wod,halfDupMode,1,-,status_on_off,DCT1,12,9,0,Half Duplex Mode,Rx and Tx On Same DCT
+130,wod,com2Spare4Bit,1,-,0,NONE,0,0,0,com2 Spare Bit,Spare
 131,wod,CIUResetCnt3,6,-,1,CIU,8,7,0,RF Matrix Reset Cnt,RF Matrix Power Cycle Cnt
-132,wod,com2Spare1,8,-,0,NONE,0,0,0,com2 Spare Byte 1,Spare
-133,wod,com2Spare2,8,-,0,NONE,0,0,0,com2 Spare Byte 2,Spare
+132,wod,dct1CurrentOp,8,-,dct_current_op,DCT1,12,9,0,Current Op,What this DCT is doing right now
+133,wod,dct2CurrentOp,8,-,dct_current_op,DCT2,13,9,0,Current Op,What this DCT is doing right now
 134,wod,com2Spare3,8,-,0,NONE,0,0,0,com2 Spare Byte 3,Spare
 135,wod,WODTimestampUptime,32,s,1,WOD,14,1,0,Uptime,Time Whole Orbit Data was collected
 136,wod,WODTimestampReset,16,-,TIMESTAMP WODTimestampReset WODTimestampUptime,WOD,14,2,0,Data Capture Time,Time Whole Orbit Data was collected
